@@ -16,6 +16,7 @@
 .container {
   width: 70%;
   margin: 0 auto;
+  height: 100vh;
 }
 
 h1 {
@@ -37,11 +38,14 @@ h1 {
 
 .search-bar select {
   margin-top: 1rem;
+  
 }
 
 .video-pokemon img{
   margin-top: 100px;
-  width: 400px;
-  height: 250px;
+  max-width: 400px;
+  height: 350px;
+  
   
 }
+
