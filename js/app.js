@@ -1,5 +1,9 @@
 
 
+/*
+  Stoped at line 27 or so I was getting the respond back from each name of the region but the problem I'm having is that is returning the name and but url for which pokemon names come up is based on the number. Like Kando is = 1 I need to figure out a way to turn that string (Kando) so I can insurt it into the url of pokemon search. 
+*/
+
 const selectRegion = document.querySelector('.pokemonRegion');
 const selectPokemon = document.querySelector('.pokemonNames');
 
@@ -17,8 +21,12 @@ function getRegion() {
       selectRegion.appendChild(option);
     }
 
+
+
+    /*
+      This is where is stop 
+    */
     selectRegion.addEventListener('change', event => {
-      
     })
 
 
@@ -29,7 +37,6 @@ function getRegion() {
 }
 
 getRegion();
-
 
 
 // // Gets the API on What ever the user types in
