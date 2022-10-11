@@ -8,7 +8,7 @@
 .background {
   width: 100vw;
   height: 100vh;
-  background-image: url(../img/carbon.jpeg);
+  background-image: url(../img/red-carbon.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -17,6 +17,7 @@
   width: 70%;
   margin: 0 auto;
   height: 100vh;
+  background-color:rgba(162, 181, 187,.8);
 }
 
 h1 {
